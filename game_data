@@ -1,0 +1,98 @@
+data = {
+    
+    1:{
+        'name': 'Instagram',
+        'follower_count': 346,
+        'description': 'Social media platform',
+        'country': 'United States'
+    },
+    2:{
+        'name': 'Cristiano Ronaldo',
+        'follower_count': 215,
+        'description': 'Footballer',
+        'country': 'Portugal'
+    },
+    3:{
+        'name': 'Ariana Grande',
+        'follower_count': 183,
+        'description': 'Musician and actress',
+        'country': 'United States'
+    },
+    4:{
+        'name': 'Dwayne Johnson',
+        'follower_count': 181,
+        'description': 'Actor and professional wrestler',
+        'country': 'United States'
+    },
+    5:{
+        'name': 'Selena Gomez',
+        'follower_count': 174,
+        'description': 'Musician and actress',
+        'country': 'United States'
+    },
+    6:{
+        'name': 'Kylie Jenner',
+        'follower_count': 172,
+        'description': 'Reality TV personality and businesswoman and Self-Made Billionaire',
+        'country': 'United States'
+    },
+    7:{
+        'name': 'Kim Kardashian',
+        'follower_count': 167,
+        'description': 'Reality TV personality and businesswoman',
+        'country': 'United States'
+    },
+    8:{
+        'name': 'Lionel Messi',
+        'follower_count': 149,
+        'description': 'Footballer',
+        'country': 'Argentina'
+    },
+    9:{
+        'name': 'Beyoncé',
+        'follower_count': 145,
+        'description': 'Musician',
+        'country': 'United States'
+    },
+    10:{
+        'name': 'Neymar',
+        'follower_count': 138,
+        'description': 'Footballer',
+        'country': 'Brasil'
+    },
+    11:{
+        'name': 'National Geographic',
+        'follower_count': 135,
+        'description': 'Magazine',
+        'country': 'United States'
+    },
+    12:{
+        'name': 'Justin Bieber',
+        'follower_count': 133,
+        'description': 'Musician',
+        'country': 'Canada'
+    },
+    13:{
+        'name': 'Taylor Swift',
+        'follower_count': 131,
+        'description': 'Musician',
+        'country': 'United States'
+    },
+    14:{
+        'name': 'Kendall Jenner',
+        'follower_count': 127,
+        'description': 'Reality TV personality and Model',
+        'country': 'United States'
+    },
+    15:{
+        'name': 'Jennifer Lopez',
+        'follower_count': 119,
+        'description': 'Musician and actress',
+        'country': 'United States'
+    },
+    16:{
+        'name': 'Nicki Minaj',
+        'follower_count': 113,
+        'description': 'Musician',
+        'country': 'Trinidad and Tobago'
+    },
