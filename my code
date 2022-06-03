@@ -3,47 +3,45 @@ from replit import clear
 from game_data import data
 from art import logo,vs
 game_on = True
-a = random.randint(1,50)
-b = random.randint(1,50)
 score = 0
-A = data[a]
-B = data[b]
-print("Welcome to my higher and lower game.")
-while game_on == True:
-
-    print(f" A : {data[a]['name']} has {data[a]['follower_count']} who is {data[a]['description']} from {data[a]['country']} ")
-    print(f" B : {data[b]['name']} has {data[b]['follower_count']} who is {data[b]['description']} from {data[b]['country']} ")
+def format_data():
+    print(f"Compare  A : {data[a]['name']} who is {data[a]['description']} from {data[a]['country']} ")
+    print(vs)
+    print(f" Against B : {data[b]['name']} who is {data[b]['description']} from {data[b]['country']} ")
     
-    correct = ''
+def check_answer():
     af = data[a]['follower_count']
     bf = data[b]['follower_count']
     if af > bf:
-        correct == A
+        return  'A'
     elif af == bf :
         print("They have same. you have a bug")
-        
     else:
-        correct == B
-        
-   
-    answer = input("Who do you think has more followers. Enter A or B as your answer. ")
+        return  'B'
+
+
+
+print("Welcome to my higher and lower game.")
+print(logo)
+while game_on == True:
     
-    if answer == correct:
+    a = random.randint(1,50)
+    b = random.randint(1,50)
+    
+    A = data[a]
+    B = data[b]
+    format_data()
+    check_answer()
+    # print(correct)   
+    answer = input("Who do you think has more followers. Enter A or B as your answer. ").upper()
+   
+    if answer == check_answer():
         score += 1
         print("Right answer")
         print(f"Your score is {score}")
-    else:
-        game_on = False
-        print(f"Sorry wrong answer. Your final score is {score}")
         
-    
-#ask user to choose a and b
-#compare a and b
-# if answer is correct 
-    #then correct answer becomes a in next round
-    #score is ++
-    #clear screen
-#if answer is wrong
-    #game ends
-    # and we display final score
-    # give user option to start again. 
+    else:
+        print(f"Sorry wrong answer. Your final score is {score}")
+        game_on = False
+        
+     
